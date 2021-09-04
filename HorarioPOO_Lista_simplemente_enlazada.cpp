@@ -79,10 +79,7 @@ int main() {
 							}
 							nuevo->ptrsig=aux->ptrsig;
 							aux->ptrsig=nuevo;
-						}
-				//		aux->ptrsig=nuevo;
-				//		aux=nuevo;
-				//		nuevo->ptrsig=NULL;	
+						}	
 						}
 				break;
 				case 2:
@@ -116,14 +113,6 @@ int main() {
 	return 0;
 	system("PAUSE");		
 }
-
-
-
-//aux=inicio;
-//						while(aux->ptrsig!=NULL){
-//							//Manipular puntero
-//							aux=aux->ptrsig;
-//						}
 
 
 
